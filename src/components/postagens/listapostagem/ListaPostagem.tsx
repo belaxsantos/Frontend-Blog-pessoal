@@ -3,7 +3,7 @@ import {Box} from '@mui/material';
 import { Link } from 'react-router-dom'
 import { Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 import Tema from '../../../models/Tema';
-import './ListaTema.css';
+import './ListaPostagem.css';
 import {useNavigate} from 'react-router-dom';
 import { busca } from '../../../services/Services';
 import { useSelector } from 'react-redux';
